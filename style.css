@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+pre{
+    text-align: center;
+}
+.links{
+    text-align: center;
+}
+.projects{
+    display: block;
+    text-align: center;
+}
+.projects-list{
+    display: block;
+    text-align: center;
+}
+.competitions{
+    display: block;
+    text-align: center;
+}
+.competitions-list{
+    display: block;
+    text-align: center;
+}
