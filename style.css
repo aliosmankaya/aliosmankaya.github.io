@@ -1,12 +1,14 @@
 body{
-    text-align: center;
-    width: 100%;
-    margin-top: 10%;
-    background-color: burlywood;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #d1ccc0;
 }
-h1{
+img{
+    border-radius: 50%;
+}
+.header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 pre{
     text-align: center;
@@ -16,17 +18,13 @@ pre{
 }
 .projects{
     display: block;
-    text-align: center;
 }
 .projects-list{
     display: block;
-    text-align: center;
 }
 .competitions{
     display: block;
-    text-align: center;
 }
 .competitions-list{
     display: block;
-    text-align: center;
 }
