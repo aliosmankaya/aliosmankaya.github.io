@@ -1,30 +1,32 @@
 body{
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: #d1ccc0;
-}
-img{
-    border-radius: 50%;
+    background-color:ghostwhite;
+    margin: 0;
 }
 .header{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-}
-pre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:beige;
+    background-color: #1abc9c;
+    padding: 4%;
     text-align: center;
 }
 .links{
     text-align: center;
 }
+img{
+    width: 20%;
+    height: "auto";
+}
+.about{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .projects{
     display: block;
-}
-.projects-list{
-    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .competitions{
     display: block;
-}
-.competitions-list{
-    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
 }
