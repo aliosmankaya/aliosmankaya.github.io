@@ -1,32 +1,51 @@
 body{
-    background-color:ghostwhite;
+    background-color: #576574;
     margin: 0;
 }
+
 .header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:beige;
-    background-color: #1abc9c;
+    background-color: #222f3e;
     padding: 4%;
     text-align: center;
 }
+
+/* Links */
 .links{
     text-align: center;
+    background-color: #bdc3c7;
+    padding: 0.5%;
 }
-img{
-    width: 20%;
-    height: "auto";
+.links:hover{
+    background-color: #ecf0f1;
 }
+
+/* Profile Picture */
+.pp-photo{
+    width: 15%;
+    height: auto;
+    border-radius: 10%;
+    opacity: 0.8;
+}
+.pp-photo:hover{
+    opacity: 1;
+}
+@media only screen and (max-width: 600px){
+    .pp-photo{
+        width: 30%;
+    }
+}
+
 .about{
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: center;
+    margin-top: 1%;
 }
+
 .projects{
-    display: block;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: center;
 }
+
 .competitions{
-    display: block;
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: center;
 }
