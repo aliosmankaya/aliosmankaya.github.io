@@ -3,6 +3,7 @@ body{
     margin: 0;
 }
 
+/* Header */
 .header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:beige;
@@ -12,6 +13,9 @@ body{
 }
 
 /* Links */
+a{
+    text-decoration: none;
+}
 .links{
     text-align: center;
     background-color: #bdc3c7;
@@ -22,30 +26,27 @@ body{
 }
 
 /* Profile Picture */
-.pp-photo{
+.pp{
+    text-align: center;
+    margin-top: 1%;
+}
+.photo{
     width: 15%;
     height: auto;
+    text-align: center;
     border-radius: 10%;
-    opacity: 0.8;
+    opacity: 0.9;
 }
-.pp-photo:hover{
+.photo:hover{
     opacity: 1;
 }
 @media only screen and (max-width: 600px){
-    .pp-photo{
+    .photo{
         width: 30%;
     }
 }
 
 .about{
     text-align: center;
-    margin-top: 1%;
-}
-
-.projects{
-    text-align: center;
-}
-
-.competitions{
-    text-align: center;
+    padding-top: 1%;
 }
